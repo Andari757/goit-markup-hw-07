@@ -15,6 +15,23 @@
   --accent-colour: #2196f3;
 }
 
+.logo {
+  text-decoration: none;
+  font-family: 'raleway', bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-style: unset;
+  color: var(--accent-colour);
+}
+
+.logo--black {
+  color: #000000;
+}
+
+.logo--white {
+  color: var(--main-bg-colour);
+}
+
 .page {
   background-color: var(--main-bg-colour);
   color: var(--main-text-colour);
@@ -60,6 +77,7 @@
 }
 
 .nav-list {
+  margin-left: 93px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,23 +119,6 @@
 .icon-phone {
   width: 10px;
   height: 16px;
-}
-
-.logo {
-  margin-right: 93px;
-  text-decoration: none;
-  font-family: 'raleway', bold;
-  font-size: 26px;
-  line-height: 1.19;
-  font-style: unset;
-}
-
-.logo-part1 {
-  color: var(--accent-colour);
-}
-
-.logo-part2 {
-  color: #000000;
 }
 
 .current > .nav-link {
@@ -171,10 +172,6 @@
   display: flex;
 }
 
-.footer-logo-part2 {
-  color: var(--main-bg-colour);
-}
-
 .footer-address {
   margin-top: 20px;
   font-style: unset;
@@ -208,7 +205,7 @@
 
 .literal-cta {
   font-weight: 700;
-  color: white;
+  color: var(--main-bg-colour);
   text-transform: uppercase;
 }
 
@@ -218,7 +215,7 @@
 }
 
 .footer-icon-box .icon-social-size {
-  fill: white;
+  fill: var(--main-bg-colour);
 }
 
 .footer-icon-social {
@@ -311,7 +308,7 @@ end*/
   text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
-  background-color: #2196f3;
+  background-color: var(--hero-footer-colour);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -517,7 +514,7 @@ end*/
 .icon-container:hover,
 .icon-container:focus {
   background-color: var(--accent-colour);
-  color: white;
+  color: var(--main-bg-colour);
 }
 
 .social-icon-box {
@@ -777,7 +774,7 @@ input::-webkit-inner-spin-button {
   position: absolute;
   bottom: 0;
   left: -20px;
-  fill: white;
+  fill: var(--main-bg-colour);
 }
 
 .check-bg {
@@ -934,12 +931,12 @@ page end
   bottom: -294px;
   width: 370px;
   height: 294px;
-  background: #2196f3;
+  background: var(--accent-colour);
   opacity: 0.9;
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.55;
-  color: white;
+  color: var(--main-bg-colour);
   letter-spacing: 0.03em;
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
